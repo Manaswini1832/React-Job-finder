@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.search-form {
+  padding: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  padding: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  background-color: #f2f2f2;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  margin-left: 3px;
+}
+
+button:hover {
+  background-color: #e0dede;
+}
+
+.job-cards-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.job-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 1vmin;
+  border: 1px solid #000;
+}
